@@ -1,12 +1,123 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&family=Roboto:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/css/main.css" />
+
     <title>Anonymous Proxy</title>
   </head>
 
   <body>
-    Hello world
+    <header class="header" id="topsite">
+      <div class="header_menu">
+        <a href="" class="header_menu-link">
+          <img
+            class="header_menu-img"
+            src="./assets/images/ico-menu.svg"
+            alt="Click here to navigate throught the website"
+          />
+        </a>
+      </div>
+      <h1 class="header-title">Anonymous proxy</h1>
+      <p class="header-text">In hac habitasse platea dictumst.</p>
+      <div class="header_bottom">
+        <a href="./index.html#reasons" class="header_bottom-link">
+          <img
+            src="./assets/images/ico-scroll-down.svg"
+            alt="Scroll down icon"
+            title="Reasons to purchase"
+          />
+        </a>
+      </div>
+    </header>
+
+    <main>
+      <section class="main__section1">
+        <small class="main__section1-small">Insomnia tips</small>
+        <h2 class="main__section1-title">Looking through a window</h2>
+        <p>
+          Donec accumsan, nulla ut volutpat porttitor, quam odio tempus felis,
+          at luctus ex diam nec lectus. Vivamus semper sodales rutrum.
+        </p>
+        <button><a href="#" class="main__section1-link">Go</a></button>
+      </section>
+
+      <section class="main__section2" id="reasons">
+        <h2 class="main__section2-title">3 Reasons to purchase</h2>
+        <div class="reason">
+          <h3 class="reason-title">Ut sed metus</h3>
+          <p class="reason-text">Lorem ipsum dolor sit amet, consecteur.</p>
+        </div>
+        <div class="reason">
+          <h3 class="reason-title">Curabitur ac erat</h3>
+          <p class="reason-text">Mauris mattis urna quis lorem molestie.</p>
+        </div>
+        <div class="reason">
+          <h3 class="reason-title">Morbi dictum</h3>
+          <p class="reason-text">Aliquam in dolor et dolor tincidunt.</p>
+        </div>
+        <button>
+          <a href="#" class="main__section2-link">More reasons</a>
+        </button>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <a href="./index.html#topsite" class="footer-arrow">
+        <img
+          src="./assets/images/ico-arrow.svg"
+          alt="Go back to the top of the website"
+          title=""
+        />
+      </a>
+      <nav>
+        <ul class="footer__nav1">
+          <li>
+            <a href="https://adalab.es/" class="footer__nav1-link">Articles</a>
+          </li>
+          <li>
+            <a href="https://adalab.es/" class="footer__nav1-link">Books</a>
+          </li>
+          <li>
+            <a href="https://adalab.es/" class="footer__nav1-link">Events</a>
+          </li>
+          <li>
+            <a href="https://adalab.es/" class="footer__nav1-link">Reasons</a>
+          </li>
+          <li>
+            <a href="https://adalab.es/" class="footer__nav1-link">Tips</a>
+          </li>
+        </ul>
+      </nav>
+
+      <nav>
+        <ul class="footer__nav2">
+          <li>
+            <a href="https://adalab.es/" class="footer__nav2-link">Twitter</a>
+          </li>
+          <li>
+            <a href="https://adalab.es/" class="footer__nav2-link">Instagram</a>
+          </li>
+          <li>
+            <a href="https://adalab.es/" class="footer__nav2-link"
+              >Mastodon.social</a
+            >
+          </li>
+        </ul>
+      </nav>
+
+      <div class="copy">
+        <p>&copy; 2022</p>
+        <small>we 3 components</small>
+      </div>
+    </footer>
   </body>
 </html>
