@@ -40,7 +40,7 @@
 }  
 
 .header {
-  background-image: url(/assets/images/cover.jpeg);
+  background-image: url(./assets/images/cover.jpeg);
   background-size: 62.5rem;/*  ¿mejor px o rem? */
   background-position: center;
   background-repeat: no-repeat;
@@ -55,7 +55,7 @@
 
   @media all and (min-width: 768px) {
       background-size: 81.25rem; /*  ¿mejor px o rem? */
-      
+     
   }
 
   @media all and (min-width: 1200px) {
@@ -75,10 +75,13 @@
       padding-bottom: 1.2rem;
 
       @media all and (min-width: 768px) {
-          font-size: 5rem;  
-      }
+          font-size: 5rem; 
+          width: min-content; 
+          
+        }
       @media all and (min-width: 1200px) {
           font-size: 6.25;
+          
           
       } 
   }

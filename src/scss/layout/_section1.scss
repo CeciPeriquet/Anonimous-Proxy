@@ -6,19 +6,37 @@
     gap: 1.25rem; 
     text-align: left;
     padding: 2.8rem 0.9rem 2.8rem 0.9rem;
-    
+
+    @media all and (min-width: 768px) {
+        padding: 2.8rem 2.4rem 2.8rem 2.4rem;
+    }
+    @media all and (min-width: 1200px) {
+        padding: 2.8rem 17.1rem 2.8rem 17.1rem;
+    }
 
 
     &-small {
         font-family: 'Roboto', sans-serif;
         color: $lightBlue;
         font-size: 0.9rem;
+
+        @media all and (min-width: 1200px) {
+            font-size: 1rem;
+        }
     }
+
+
     &-title {
         font-family: 'Roboto Slab', serif;
         /* font-weight: 700; */
         font-size: 1.5rem;
         text-transform: capitalize;
+        @media all and (min-width: 768px) {
+            font-size: 1.6rem;
+        }
+        @media all and (min-width: 1200px) {
+            font-size: 2rem;
+        }
         
     }
     &-text {
@@ -26,6 +44,10 @@
         font-size: 1.12rem;
         color: $greyText;
         line-height: 1.8rem;
+        @media all and (min-width: 768px) {
+            font-size: 1.12rem;
+        }
+        
     }
 }
 
