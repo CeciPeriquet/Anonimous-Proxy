@@ -12,7 +12,6 @@
             width: 41px;
             height: 44px;   
             top: 0px;
-            
         }
       
         @media all and (min-width: 1200px) {
@@ -34,14 +33,12 @@
         @media all and (min-width: 1200px) {
             width: 16px;
         }
-
     }
-
 }  
 
 .header {
-  background-image: url(http://beta.adalab.es/modulo-1-evaluacion-final-CeciPeriquet/assets/images/cover.jpeg);
-  background-size: 62.5rem;/*  ¿mejor px o rem? */
+  background-image: url(./assets/images/cover.jpeg);
+  /* background-size: 62.5rem; */
   background-position: center;
   background-repeat: no-repeat;
   width: 100%;
@@ -52,18 +49,16 @@
   align-items: center; 
   padding-bottom: 2rem;
 
-
   @media all and (min-width: 768px) {
-      background-size: 81.25rem; /*  ¿mejor px o rem? */
+      /* background-size: 81.25rem;  ¿mejor px o rem? */
      
   }
 
   @media all and (min-width: 1200px) {
-      background-size: 156.25rem; /*  ¿mejor px o rem? */
+     /*  background-size: 156.25rem;  ¿mejor px o rem? */
       
   }
   
-
   &-title {
       font-family: 'Roboto Slab', serif;
       font-weight: 700; 
@@ -110,8 +105,7 @@
 
     @media all and (min-width: 768px) {
         height: 45px;
-        width: 42.5px;
-        
+        width: 42.5px; 
     }
     @media all and (min-width: 1200px) {
         width: 45px;
@@ -126,13 +120,8 @@
       align-items: center;
 
     @media all and (min-width: 768px) {
-        padding: 16px 12px 16px 12px; 
-        
+        padding: 16px 12px 16px 12px;      
     }
-
   }
-
-
-    
 }
 
