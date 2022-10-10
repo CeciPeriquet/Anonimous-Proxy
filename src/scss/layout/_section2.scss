@@ -3,42 +3,54 @@
     height: 100vh;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 70px 90px 90px 90px 70px;
+    /* grid-template-rows: 70px 90px 90px 90px 100px; */
     grid-row-gap: 45px;
     text-align: center;
+    padding: 29px 70px 45px 70px;
 
-    &-title {
-        padding-top: 29px;
-        font-family: 'Roboto Slab', serif;
-        font-size: 1.5rem;
-        text-transform: capitalize;
-    }    
-
-
-    &-link {
-        
-        color: $white;
-        background-color: $orange;
-        width: 184px;
-        height: 45px;
-        padding: 5px 20px 5px 20px;
-        border-radius: 1.4rem;
-        font-family: 'Roboto', sans-serif;
-        font-weight: 500;
-        font-size: 1.25rem;
-        line-height: 2.8rem;
-        
+    @media all and (min-width: 768px) {
+        height: 50vh;
+        grid-template-columns: 1fr 1fr 1fr;
+        padding: 36px 35.5px 50px 35.5px;
+        grid-row-gap: 38px;
+        grid-column-gap: 20px;
     }
+    @media all and (min-width: 1200px) {
+        padding: 36px 35.5px 50px 35.5px;
+        grid-row-gap: 43px;
+    }
+ 
 }
 
+.main__section2-title {
+    
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    @media all and (min-width: 768px) {
+        grid-column: span 3;
+        font-size: 1.6rem;
+       
+    }
+    @media all and (min-width: 1200px) {
+        font-size: 2rem;
+       
+    }
+}    
+
 .reason {
-    padding: 0px 70px 0px 70px;
+    /* padding: 0px 70px 0px 70px; */
     text-align: center;
 
     &-title {
         font-family: 'Roboto Slab', serif;
         font-size: 1.12rem;
         line-height: 1.9rem;
+
+        @media all and (min-width: 768px) {
+            font-size: 1.5rem;
+           
+        }
     }
 
     &-text {
@@ -46,5 +58,37 @@
         font-weight: 400;
         font-size: 1.12rem;
         line-height: 1.9rem;
+
+        @media all and (min-width: 768px) {
+            font-size: 1.25rem;
+        }
     }
+}
+
+.link-wrapper {
+     text-align: center;   
+     @media all and (min-width: 768px) {
+        grid-column: span 3;
+     }
+}
+
+.main__section2-link {
+    color: $white;
+    background-color: $orange;
+    width: 11.5rem;
+    height: 2.8rem;
+    padding: 5px 20px 5px 20px;
+    border-radius: 1.4rem;
+    font-family: 'Roboto', sans-serif;
+    text-transform: capitalize;
+    font-weight: 400;
+    font-size: 1.25rem;
+    line-height: 2.8rem;
+    @media all and (min-width: 768px) {
+       width: 13.1rem;
+    }
+    @media all and (min-width: 1200px) {
+        width: 15.9rem;
+    }
+    
 }

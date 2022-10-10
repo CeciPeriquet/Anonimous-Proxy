@@ -29,9 +29,11 @@
     &-title {
         font-family: 'Roboto Slab', serif;
         font-size: 1.5rem;
+        line-height: 1.8rem;
         text-transform: capitalize;
         @media all and (min-width: 768px) {
             font-size: 1.6rem;
+            line-height: 2.8rem;
         }
         @media all and (min-width: 1200px) {
             font-size: 2rem;
@@ -41,6 +43,7 @@
     &-text {
         font-family: 'Roboto', sans-serif;
         font-size: 1.12rem;
+        line-height: 1.8rem;
         color: $greyText;
         line-height: 1.9rem;
         @media all and (min-width: 768px) {
@@ -53,6 +56,7 @@
 .main__section1-link {
     display: block;
     margin-top: 0.3rem;
+    margin-bottom: 50px;
     height: 2.8rem;
     width: 4.7rem;
     border: solid $orange 2px;
@@ -63,5 +67,11 @@
     font-family: 'Roboto', sans-serif;
     font-size: 1.25rem;
     font-weight: 500;
+    @media all and (min-width: 768px) {
+        width: 5.6rem;  
+    }
+    @media all and (min-width: 1200px) {
+        width: 10rem;
+    }
 
 }
