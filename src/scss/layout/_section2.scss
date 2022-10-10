@@ -6,7 +6,7 @@
     /* grid-template-rows: 70px 90px 90px 90px 100px; */
     grid-row-gap: 45px;
     text-align: center;
-    padding: 29px 70px 45px 70px;
+    /* padding: 29px 70px 45px 70px; */
 
     @media all and (min-width: 768px) {
         height: 50vh;
@@ -19,14 +19,14 @@
         padding: 36px 35.5px 50px 35.5px;
         grid-row-gap: 43px;
     }
- 
 }
 
 .main__section2-title {
-    
+    padding: 29px 70px 45px 70px;
     font-family: 'Roboto Slab', serif;
     font-size: 1.5rem;
     text-transform: capitalize;
+
     @media all and (min-width: 768px) {
         grid-column: span 3;
         font-size: 1.6rem;
@@ -48,7 +48,6 @@
 
         @media all and (min-width: 768px) {
             font-size: 1.5rem;
-           
         }
     }
 
