@@ -39,7 +39,6 @@
 }    
 
 .reason {
-    /* padding: 0px 70px 0px 70px; */
     text-align: center;
 
     &-title {
@@ -86,6 +85,7 @@
     line-height: 2.8rem;
     @media all and (min-width: 768px) {
        width: 13.1rem;
+       padding: 10px 40px 10px 40px;
     }
     @media all and (min-width: 1200px) {
         width: 15.9rem;

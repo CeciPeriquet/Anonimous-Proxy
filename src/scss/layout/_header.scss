@@ -75,7 +75,7 @@
           
         }
       @media all and (min-width: 1200px) {
-          font-size: 6.25;
+          font-size: 6.25rem;
           
           
       } 
@@ -95,6 +95,11 @@
         font-size: 1.5rem;
         line-height: 1.75rem;
         width: 23ch;
+    }
+    @media all and (min-width: 1200px) {
+        font-size: 1.5rem;
+        line-height: 1.75rem;
+        width: 100%;
     }
   }
 }
