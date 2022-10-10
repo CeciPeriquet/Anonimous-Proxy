@@ -1,4 +1,50 @@
 .main__section2 {
     background-color: $backgroundBlue;
     height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 70px 90px 90px 90px 70px;
+    grid-row-gap: 45px;
+    text-align: center;
+
+    &-title {
+        padding-top: 29px;
+        font-family: 'Roboto Slab', serif;
+        font-size: 1.5rem;
+        text-transform: capitalize;
+    }    
+
+
+    &-link {
+        
+        color: $white;
+        background-color: $orange;
+        width: 184px;
+        height: 45px;
+        padding: 5px 20px 5px 20px;
+        border-radius: 1.4rem;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 500;
+        font-size: 1.25rem;
+        line-height: 2.8rem;
+        
+    }
+}
+
+.reason {
+    padding: 0px 70px 0px 70px;
+    text-align: center;
+
+    &-title {
+        font-family: 'Roboto Slab', serif;
+        font-size: 1.12rem;
+        line-height: 1.9rem;
+    }
+
+    &-text {
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+        font-size: 1.12rem;
+        line-height: 1.9rem;
+    }
 }

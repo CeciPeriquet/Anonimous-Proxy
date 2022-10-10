@@ -28,7 +28,6 @@
 
     &-title {
         font-family: 'Roboto Slab', serif;
-        /* font-weight: 700; */
         font-size: 1.5rem;
         text-transform: capitalize;
         @media all and (min-width: 768px) {
@@ -43,7 +42,7 @@
         font-family: 'Roboto', sans-serif;
         font-size: 1.12rem;
         color: $greyText;
-        line-height: 1.8rem;
+        line-height: 1.9rem;
         @media all and (min-width: 768px) {
             font-size: 1.12rem;
         }
@@ -57,16 +56,12 @@
     height: 2.8rem;
     width: 4.7rem;
     border: solid $orange 2px;
-    border-radius: 30%;
+    border-radius: 1.4rem;
     color: $orange;
     padding: 5px 20px 5px 20px;
     text-align: center;
     font-family: 'Roboto', sans-serif;
     font-size: 1.25rem;
     font-weight: 500;
-   
-    
-
-
 
 }

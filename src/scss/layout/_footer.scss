@@ -3,13 +3,15 @@
 }
 
 .footer-arrow {
-   position: relative;
-   width: 100%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    width: 100%;
 
     &-link {   
         display: block;
-        margin-left: 45%;
-        margin-right: 45%;
+        margin-left: 42.5%;
+        margin-right: 42.5%;
         height: 45px;
         width: 45px;
         background-color: $white;
@@ -19,9 +21,6 @@
         top: -22px;
     }   
     
-        
-          
-
 }
 
 
@@ -67,10 +66,27 @@
 }
 
 .copy {
+    background-color: $darkBlue;
+    padding-bottom: 36px;
     color: $white;
     font-family: 'Roboto', sans-serif;
+    font-weight: 400;
     display: flex;
+    text-align: center;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 10px;
+    
+}
+
+.components {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 3px;
+}
+
+.heart {
+    color: $orange;
 }
