@@ -21,6 +21,8 @@ From now on we're going to use this template, so we won´t use Live Server but `
 
 Before jumping over my keyboard to write code, I used _excalidraw.com_ to try to figure out the HTML structure of the website, as our teachers do. (As you can see I considered the hero image as a part of the header, but I guess in this case there's no right or wrong, it's just a point of view).
 
+<img width="1322" alt="ceciperiquet_excalidraw_sample" src="https://user-images.githubusercontent.com/112966265/195164496-61120239-d301-41f1-9382-fb8c17ee8515.png">
+
 I created the whole HTML structure in `index.html` but then used partials for the different layouts of the site `<header> <main> and <footer>` basically, as afterwards I'd do with SASS styles.
 
 First thing I set in `.scss` document was the variables, int this case I only used variables for the colors that the zeplin design gave us (althought I could have also used variables for the fonts).
