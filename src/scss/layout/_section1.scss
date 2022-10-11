@@ -9,24 +9,20 @@
 
     @media all and (min-width: 768px) {
         padding: 2.3rem 2.4rem 3.1rem 2.4rem;
-        
     }
-    @media all and (min-width: 1200px) {
+    @media all and (min-width: 1280px) {
         padding: 2.8rem 17.1rem 2.8rem 17.1rem;
-       
     }
-
 
     &-small {
         font-family: 'Roboto', sans-serif;
         color: $lightBlue;
         font-size: 0.9rem;
 
-        @media all and (min-width: 1200px) {
+        @media all and (min-width: 1280px) {
             font-size: 1rem;
         }
     }
-
 
     &-title {
         font-family: 'Roboto Slab', serif;
@@ -37,10 +33,9 @@
             font-size: 1.6rem;
             line-height: 2.8rem;
         }
-        @media all and (min-width: 1200px) {
+        @media all and (min-width: 1280px) {
             font-size: 2rem;
         }
-        
     }
     &-text {
         font-family: 'Roboto', sans-serif;
@@ -76,16 +71,14 @@
         color: $white;
         
     }
-
     @media all and (min-width: 768px) {
         width: 5.6rem;  
         &:hover {
             width: 5.5rem;
             
-        }
-        
+        }  
     }
-    @media all and (min-width: 1200px) {
+    @media all and (min-width: 1280px) {
         width: 10rem;
         &:hover {
             width: 9.8rem;

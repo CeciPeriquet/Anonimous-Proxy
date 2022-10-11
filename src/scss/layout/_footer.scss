@@ -6,14 +6,8 @@
 .footer-arrow {
     display: flex;
     justify-content: center;
-    
     width: 100%;
-    will-change: transform;
-    transition: transform 250ms ease-in-out;
-    &:hover {
-        transform: translateY(-10px);
-    }
-
+    
     &-link {   
         display: block;
         margin-left: 42.5%;
@@ -26,6 +20,15 @@
         position: absolute;
         top: -22px;
         box-shadow: 0px 4px 5px #353333;
+
+        &:hover {
+            animation: arrow 1500ms ease-in-out infinite;
+            @keyframes arrow {
+                0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
+                40% {transform: translateY(-40px);}
+                60% {transform: translateY(-20px);}
+            }
+        }
     }   
 }
 
@@ -43,7 +46,7 @@
         justify-content: space-between;
         align-items: flex-start;
     }
-    @media all and (min-width: 1200px) {
+    @media all and (min-width: 1280px) {
         padding: 50px 370px 50px 370px;
     }
     
@@ -79,7 +82,7 @@
             height: 5.6rem;
             width: 13.1rem;
          }
-         @media all and (min-width: 1200px) {
+         @media all and (min-width: 1280px) {
              
          }
 
