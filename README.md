@@ -1,6 +1,7 @@
 # FINAL EVALUATION
 
 The first module of Adalab Web Development Bootcamp it´s ending and this is the final exam we have to pass.
+I'm Ceci, a *newbie* in web development, so please join me in my FIRST EVER README.
 
 ## Statement
 
@@ -33,7 +34,7 @@ First thing I set in `.scss` document was the variables, int this case I only us
 
 ![ceciperiquet_variables_sample](https://user-images.githubusercontent.com/112966265/195164076-400cdd4e-4c42-4579-a9ae-4c55c2d95e38.png)
 
-As with the html layout, in this project I'm working with SCSS partials that, as you probably know (sorry, I'm a newby, first README.MD ever) have to be imported to the `main.scss` with the following commands:
+As with the html layout, in this project I'm working with SCSS partials that, as you probably know (sorry, I'm a newbie, first README.MD ever, remember) have to be imported to the `main.scss` with the following commands:
 
 ````
 @import 'core/variables';
