@@ -29,7 +29,7 @@ I created the whole HTML structure in `index.html` but then used partials for th
 
 First thing I set in `.scss` document was the variables, int this case I only used variables for the colors that the zeplin design gave us (althought I could have also used variables for the fonts).
 
-
+![ceciperiquet_variables_sample](https://user-images.githubusercontent.com/112966265/195164076-400cdd4e-4c42-4579-a9ae-4c55c2d95e38.png)
 
 As with the html layout, in this project I'm working with SCSS partials that, as you probably know (sorry, I'm a newby, first README.MD ever) have to be imported to the `main.scss` with the following commands:
 
