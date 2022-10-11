@@ -17,7 +17,9 @@ We had to create a **responsive website** (with different zeplin desings for _mo
 
 First thing to do was cloning the repository and add the template from **ADALAB STARTER KIT**, and then `npm install` to create _node_modules_ folder and start working with _node.js_ and _gulp_.
 
-From now on we're going to use this template, so we won´t use Live Server but `npm start` to check changes on our browser (and use our beloved **DevTools**).
+From now on we're going to use this template, so we won´t use Live Server but `npm start` to check changes on our browser (and use our beloved **DevTools**, by the way I learned A LOT of shadow boxing with the DevTools box, image below).
+
+![ceciperiquet_shadow_sample](https://user-images.githubusercontent.com/112966265/195164080-2fa9cb51-c1eb-412e-bd93-02ce13a768d8.png)
 
 ## A Bit of Story and Code
 
