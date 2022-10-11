@@ -11,6 +11,8 @@ We had to create a **responsive website** (with different zeplin desings for _mo
 - Mediaqueries
 - Transitions (an animation would be a BONUS)
 
+![ceciperiquet_responsive_samples](https://user-images.githubusercontent.com/112966265/195165271-8f1d4deb-ff29-4fcb-8c9d-4e84135fbb8a.png)
+
 ## Technology
 
 First thing to do was cloning the repository and add the template from **ADALAB STARTER KIT**, and then `npm install` to create _node_modules_ folder and start working with _node.js_ and _gulp_.
@@ -26,6 +28,8 @@ Before jumping over my keyboard to write code, I used _excalidraw.com_ to try to
 I created the whole HTML structure in `index.html` but then used partials for the different layouts of the site `<header> <main> and <footer>` basically, as afterwards I'd do with SASS styles.
 
 First thing I set in `.scss` document was the variables, int this case I only used variables for the colors that the zeplin design gave us (althought I could have also used variables for the fonts).
+
+
 
 As with the html layout, in this project I'm working with SCSS partials that, as you probably know (sorry, I'm a newby, first README.MD ever) have to be imported to the `main.scss` with the following commands:
 
