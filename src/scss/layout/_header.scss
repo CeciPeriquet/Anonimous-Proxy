@@ -123,10 +123,15 @@
       display: flex; 
       justify-content: center; 
       align-items: center;
+      transition: transform 250ms ease-in-out;
+      &:hover {
+        transform: translateY(10px);
+      }
 
     @media all and (min-width: 768px) {
         padding: 16px 12px 16px 12px;      
     }
   }
 }
+
 

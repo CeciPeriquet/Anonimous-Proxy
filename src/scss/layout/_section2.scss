@@ -64,7 +64,8 @@
 }
 
 .link-wrapper {
-     text-align: center;   
+     text-align: center; 
+     margin-bottom: 45px;  
      @media all and (min-width: 768px) {
         grid-column: span 3;
      }
@@ -81,13 +82,28 @@
     text-transform: capitalize;
     font-weight: 400;
     font-size: 1.25rem;
-    line-height: 2.8rem;
+    line-height: 2.8rem; 
+    transition: width 200ms, background-color 150ms, border 150ms, color 150ms;
+
+    &:hover {
+        width: 11.8rem;
+        background-color: $white;
+        border: solid $orange 2px;
+        color: $orange;
+    }
+
     @media all and (min-width: 768px) {
        width: 13.1rem;
        padding: 10px 40px 10px 40px;
+       &:hover {
+        width: 13.7rem;  
+    }
     }
     @media all and (min-width: 1200px) {
         width: 15.9rem;
+        &:hover {
+            width: 17.9rem;    
+        }
     }
     
 }

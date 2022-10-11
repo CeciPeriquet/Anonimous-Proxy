@@ -68,11 +68,29 @@
     font-family: 'Roboto', sans-serif;
     font-size: 1.25rem;
     font-weight: 500;
+    transition: width 350ms, background-color 250ms, color 250ms;
+
+    &:hover {
+        width: 4.6rem;
+        background-color: $orange;
+        color: $white;
+        
+    }
+
     @media all and (min-width: 768px) {
         width: 5.6rem;  
+        &:hover {
+            width: 5.5rem;
+            
+        }
         
     }
     @media all and (min-width: 1200px) {
         width: 10rem;
+        &:hover {
+            width: 9.8rem;
+            
+        }
+
     }
 }
